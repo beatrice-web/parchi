@@ -1,0 +1,3279 @@
+
+.home,
+.home * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  height: 1706px;
+  position: relative;
+  overflow: hidden;
+}
+.home-1 {
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left:0px;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 1452.86/339;
+}
+.rettangolo-1 {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.nome-sito {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 32px;
+}
+.nav-home {
+  width: 556px;
+  height: 29px;
+  position: static;
+}
+
+.home-link-home,
+.home-link-parchi,
+.home-link-attivita {
+  color: #024a7a;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  position: absolute;
+}
+.home-link-home {
+  left: 824px;
+  top: 34px;
+}
+
+.home-link-parchi {
+  left: 978px;
+  top: 34px;
+}
+
+.home-link-attivita {
+  left: 1144px;
+  top: 34px;
+}
+.introduzionehome {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 265px;
+  width: 862px;
+}
+.esplora-i-parchi-d-italia {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 196px;
+  width: 1362px;
+  height: 140px;
+}
+.home2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 824px;
+  top: 32px;
+}
+.parchi {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 978px;
+  top: 32px;
+}
+.attivit-ed-esperienze {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1144px;
+  top: 32px;
+}
+.testohome1 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 631px;
+  width: 565px;
+  height: 120px;
+}
+.card-2 {
+  position: absolute;
+  inset: 0;
+}
+.home-4 {
+  width: 305.68px;
+  height: 229px;
+  position: absolute;
+  left: 480px;
+  top: 1048px;
+  object-fit: cover;
+  aspect-ratio: 305.68/229;
+}
+.parco-nazionale-della-sila {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 480px;
+  top: 1294px;
+  width: 297px;
+  height: 26px;
+}
+.card-3 {
+  position: absolute;
+  inset: 0;
+}
+.home-5 {
+  width: 305.68px;
+  height: 229px;
+  position: absolute;
+  left: 900px;
+  top: 1048px;
+  object-fit: cover;
+  aspect-ratio: 306.67/230;
+}
+.parco-nazionale-del-vesuvio {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 900px;
+  top: 1294px;
+  width: 192px;
+  height: 52px;
+}
+.card-4 {
+  position: absolute;
+  inset: 0;
+}
+.home-6 {
+  width: 305.68px;
+  height: 229px;
+  position: absolute;
+  left: 1320px;
+  top: 1048px;
+  object-fit: cover;
+  aspect-ratio: 304.37/230;
+}
+.parco-nazionale-dell-arcipelago-toscano {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 1320px;
+  top: 1294px;
+  width: 304.37px;
+  height: 52px;
+}
+.card-1 {
+  position: absolute;
+  inset: 0;
+}
+.home-3 {
+  width: 305.68px;
+  height: 229px;
+  position: absolute;
+  left: 60px;
+  top: 1048px;
+  object-fit: cover;
+  aspect-ratio: 305.68/229;
+}
+.parco-dell-etna {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 1295px;
+  width: 168px;
+  height: 26px;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0;
+
+}
+.home-7 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0px;
+  top: 1560px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+  margin-bottom: 0;
+}
+.rettangolo-7 {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0%;
+  top: 1560px;
+  margin-bottom: 0;
+}
+.parchi-d-italia {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 1640px;
+}
+.chi-siamo {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 1640px;
+}
+.privacy {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 1640px;
+}
+.home-2 {
+  width: 644px;
+  height: 325px;
+  position: absolute;
+  left: 980px;
+  top: 529px;
+  object-fit: cover;
+  aspect-ratio: 644/325;
+}
+.testohome2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 67px;
+  top: 692px;
+  width: 562px;
+  height: 144px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.parchi-nav {
+  width: 556px;
+  height: 29px;
+  position: static;
+}
+
+.parchi-link-home,
+.parchi-link-parchi,
+.parchi-link-attivita {
+  color: #024a7a;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  position: absolute;
+}
+
+.parchi-link-home {
+  left: 1040px;
+  top: 34px;
+}
+
+.parchi-link-parchi {
+  left: 1204px;
+  top: 34px;
+}
+
+.parchi-link-attivita {
+  left: 1380px;
+  top: 34px;
+}
+
+.testoparchi1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 587px;
+  width: 566px;
+  height: 96px;
+}
+.testoparchi2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 643px;
+  width: 566px;
+  height: 96px;
+}
+.parchi-2 {
+  width: 564px;
+  height: 370px;
+  position: absolute;
+  left: 64px;
+  top: 554px;
+  object-fit: cover;
+  aspect-ratio: 564/370;
+}
+
+.card-parchi-1 {
+  position: absolute;
+  inset: 0;
+}
+.parchi-3 {
+  width: 564px;
+  height: 370px;
+  position: absolute;
+  left: 1060px;
+  top: 1118px;
+  object-fit: cover;
+  aspect-ratio: 564/370;
+}
+.parconazionaledabruzzolazioemolise {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 1114px;
+}
+.rettangolo-2 {
+  background: #616e11;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 5px;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 60px;
+  top: 1424px;
+}
+.scopri-di-pi {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 97px;
+  top: 1437px;
+}
+
+.card-parchi-2 {
+  position: absolute;
+  inset: 0;
+}
+.parconazionaledellasila {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 1679px;
+}
+.rettangolo-3 {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 1060px;
+  top: 1985px;
+}
+.scopri-di-pi2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 1095px;
+  top: 1998px;
+}
+.parchi-4 {
+  width: 567px;
+  height: 370px;
+  position: absolute;
+  left: 53px;
+  top: 1679px;
+  object-fit: cover;
+  aspect-ratio: 567/370;
+}
+.card-parchi-3 {
+  position: absolute;
+  inset: 0;
+}
+.parconazionaledelvesuvio {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 2239px;
+}
+.rettangolo-4 {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 2px;
+  top: 312px;
+}
+.scopri-di-pi4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 39px;
+  top: 325px;
+}
+.parchi-5 {
+  width: 564px;
+  height: 368px;
+  position: absolute;
+  left: 1060px;
+  top: 2247px;
+  object-fit: cover;
+  aspect-ratio: 564/368;
+}
+
+.card-parchi-4 {
+  position: relative;
+}
+.parconazionaledellarcipelagotoscano {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1000px;
+  top: 620px;
+}
+.rettangolo-5 {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 1000px;
+  top: 938px;
+}
+.scopri-di-pi3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 1045px;
+  top: 950px;
+}
+.parchi-6 {
+  width: 563px;
+  height: 372px;
+  position: relative;
+  left: 0px;
+  top: 550px;
+  object-fit: cover;
+  aspect-ratio: 563/372;
+}
+
+.card-parchi-5 {
+  position: absolute;
+  inset: 0;
+}
+.parcodelletna {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 1250px;
+}
+.rettangolo-6 {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 0px;
+  top: 1555px;
+}
+.scopri-di-pi5 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 40px;
+  top: 1570px;
+}
+.parchi-7 {
+  width: 561px;
+  height: 369px;
+  position: absolute;
+  left:1000px;
+  top: 1250px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 561/369;
+}
+
+.elenco1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: -10px;
+  top: 1850px;
+  width: 587px;
+  height: 288px;
+}
+
+.elenco2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: 1000px;
+  top: 1840px;
+  width: 587px;
+  height: 288px;
+}
+
+.footer {
+  position: absolute;
+  inset: 0;
+}
+.parchi-8 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0px;
+  top: 4370px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+}
+.rettangolo-8 {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0px;
+  top: 4370px;
+
+}
+.parchi-d-italia2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 58px;
+  top: 4450px;
+}
+.chi-siamo2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 4450px;
+}
+.privacy2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 4450px;
+}
+
+.parchi-intro {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  left: calc(50% - 660px);
+  top: -2500px;
+  width: 1362px;
+  height: 140px;
+}
+.esplora-i-maestosi-parchi-nazionali-italiani-luoghi-incantati-dove-montagne-coste-e-antiche-foreste-raccontano-la-storia-e-la-bellezza-senza-tempo-del-nostro-paese {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: relative;
+  left: 50%;
+  translate: -50%;
+  top: -2570px;
+  width: 1319px;
+}
+
+
+
+
+
+
+
+.imageparcodabruzzo1 {
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 1444.29/337;
+}
+.parco-nazionale-d-abruzzo-lazio-e-molise3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 196px;
+  width: 1232px;
+}
+.introduzioneparcoabruzzo {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 270px;
+  width: 1319px;
+}
+.parco-nazionale-d-abruzzo-lazio-e-molise2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 566px;
+}
+.abruzzotesto1 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 690px;
+  width: 560px;
+  height: 476px;
+}
+.abruzzotesto2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 863px;
+  width: 559px;
+  height: 258px;
+}
+.image-parco-d-abruzzo-2 {
+  width: 561.89px;
+  height: 370px;
+  position: absolute;
+  left: 1000px;
+  top: -250px;
+  object-fit: cover;
+  aspect-ratio: 561.89/370;
+}
+.image-parco-d-abruzzo-3 {
+  width: 556.87px;
+  height: 366px;
+  position: absolute;
+  left: 10px;
+  top: 440px;
+  object-fit: cover;
+  aspect-ratio: 556.87/366;
+}
+.punti-di-interesse {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: 1000px;
+  top: 220px;
+}
+.abruzzotesto3{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 460px;
+  width: 562px;
+  height: 356px;
+}
+.abruzzotesto4 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 560px;
+  width: 564px;
+  height: 313px;
+}
+.abruzzotesto5{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 640px;
+  width: 562px;
+  height: 313px;
+}
+.abruzzotesto6 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 790px;
+  width: 564px;
+  height: 99px;
+}
+
+.attivita-specifiche {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 10px;
+  top: 1020px;
+}
+.abruzzotesto7{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 1100px;
+  width: 557px;
+  height: 476px;
+}
+.abruzzotesto8 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 1250px;
+  width: 559px;
+  height: 316px;
+}
+.abruzzotesto9{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 1425px;
+  width: 559px;
+  height: 314px;
+}
+
+.image-parco-d-abruzzo-4 {
+  width: 562.57px;
+  height: 369px;
+  position: absolute;
+  left: 1000px;
+  top: -300px;
+  object-fit: cover;
+  aspect-ratio: 562.57/369;
+}
+.image-parco-d-abruzzo-5 {
+  width: 567px;
+  height: 369px;
+  position: absolute;
+  left: 0px;
+  top: 440px;
+  object-fit: cover;
+  aspect-ratio: 567/369;
+}
+.cenni-su-flora-e-fauna {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: 1000px;
+  top: 200px;
+}
+.abruzzotesto10 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 440px;
+  width: 564px;
+  height: 314px;
+}
+.abruzzotesto11{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 550px;
+  width: 563px;
+  height: 319px;
+}
+.abruzzotesto12 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 700px;
+  width: 557px;
+  height: 308px;
+}
+.informazioni-utili {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: -1000px;
+  top: 400px;
+}
+.abruzzotesto13{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 480px;
+  width: 560px;
+  height: 298px;
+}
+.abruzzotesto14{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 605px;
+  width: 560px;
+  height: 320px;
+}
+.abruzzotesto15{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 775px;
+  width: 560px;
+  height: 320px;
+}
+.abruzzotesto16{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 945px;
+  width: 560px;
+  height: 320px;
+}
+.image-parco-d-abruzzo-6 {
+  width: 562.38px;
+  height: 365px;
+  position: absolute;
+  left: 1000px;
+  top: -400px;
+  object-fit: cover;
+  aspect-ratio: 562.38/365;
+}
+.image-parco-d-abruzzo-7 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  width: 562px;
+  height: 366px;
+  position: absolute;
+  left: 0px;
+  top: 370px;
+  object-fit: cover;
+  aspect-ratio: 562/366;}
+.anteprima-parco-nazionale-della-sila {
+    color: #024a7a;
+    text-align: left;
+    font-family: "FuturaMdBt-Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    left: 1000px;
+    top: 250px;
+  }
+  .un-altopiano-millenario-nel-cuore-della-calabria-boschi-laghi-e-borghi-di-antiche-tradizioni {
+    color: #024a7a;
+    text-align: left;
+    font-family: "FuturaMdBt-Medium", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    position: absolute;
+    left: 1000px;
+    top: 480px;
+    width: 566px;
+    height: 250px;
+  }
+.rectangle-65A {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 1000px;
+  top: 673px;
+}
+.scopridipiA {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  left: 1045px;
+  top: 495px;
+}
+.footerparcodabruzzo {
+  position: absolute;
+  inset: 0;
+}
+.image-parco-d-abruzzo-8 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0px;
+  top: 4827px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+}
+.rettangolo-parco-d-abruzzo-8 {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0px;
+  top: 4827px;
+}
+.parchiditalia3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 4916px;
+}
+.chisiamo3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 4916px;
+}
+.privacy3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 4916px;
+}
+
+
+.imageparcosila1 {
+  width: 100%;
+  height: 340px;
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  object-fit: cover;
+  aspect-ratio: 1440/336;
+}
+.parco-nazionale-della-sila2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 196px;
+  width: 1232px;
+}
+.introduzioneparcosila {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 270px;
+  width: 1319px;
+}
+.parco-nazionale-della-sila3 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1050px;
+  top: 567px;
+}
+.testoparcosila1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+  width: 561px;
+  height: 448px;
+}
+.testoparcosila2{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 245px;
+  width: 560px;
+  height: 252px;
+}
+.image-parco-sila-2 {
+  width: 559.39px;
+  height: 364px;
+  position: absolute;
+  left: -1000px;
+  top: -200px;
+  object-fit: cover;
+  aspect-ratio: 559.39/364;
+}
+.punti-di-interessesila {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: -1000px;
+  top: 350px;
+}
+.testoparcosila3 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left:-1000px;
+  top: 430px;
+  width: 559px;
+  height: 251px;
+}
+.image-parco-sila-3 {
+  width: 564px;
+  height: 367px;
+  position: absolute;
+  left: 1000px;
+  top: -50px;
+  object-fit: cover;
+  aspect-ratio: 564/367;
+}
+.attivita-specifichesila {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: 1000px;
+  top: 250px;
+}
+.testoparcosila6{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 665px;
+  width: 564px;
+  height: 250px;
+}
+.testoparcosila7 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 790px;
+  width: 566px;
+  height: 320px;
+}
+.testoparcosila8{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 890px;
+  width: 561px;
+  height: 336px;
+}
+.image-parco-sila-4 {
+  width: 557.85px;
+  height: 363px;
+  position: absolute;
+  left: 0px;
+  top: 660px;
+  object-fit: cover;
+  aspect-ratio: 557.85/363;
+}
+.cenni-su-flora-e-faunasila {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: -1000px;
+  top: 1700px;
+}
+.testoparcosila9{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 1790px;
+  width: 559px;
+  height: 256px;
+}
+.image-parco-sila-5 {
+  width: 559.83px;
+  height: 363px;
+  position: absolute;
+  left: 0px;
+  top: 1780px;
+  object-fit: cover;
+  aspect-ratio: 559.83/363;
+}
+.testoparcosila10{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 1910px;
+  width: 559px;
+  height: 317px;
+}
+.testoparcosila11 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 2060px;
+  width: 559px;
+  height: 314px;
+}
+.informazioni-utilisila {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: 0px;
+  top: 2200px;
+}
+.testoparcosila12{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 2500px;
+  width: 559px;
+  height: 338px;
+}
+.image-parco-sila-6 {
+  width: 559.28px;
+  height: 362px;
+  position: absolute;
+  left: -1000px;
+  top: 2500px;
+  object-fit: cover;
+  aspect-ratio: 559.28/362;
+}
+.testoparcosila13{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 2670px;
+  width: 568px;
+  height: 324px;
+}
+.testoparcosila14{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 2870px;
+  width: 558px;
+  height: 372px;
+}
+.testoparcosila15 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 3020px;
+  width: 568px;
+  height: 324px;
+}
+.testoparcosila16{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 3150px;
+  width: 564px;
+  height: 388px;
+}
+.testoparcosila17{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 3300px;
+  width: 572px;
+  height: 452px;
+}
+.testoparcosila18{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 3470px;
+  width: 560px;
+  height: 340px;
+}
+.image-parco-sila-7 {
+  width: 560px;
+  height: 367px;
+  position: absolute;
+  left: -1000px;
+  top: 3100px;
+  object-fit: cover;
+  aspect-ratio: 560/367;
+}
+.anteprima-parco-nazionale-del-vesuvio {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: -1000px;
+  top: 4060px;
+  width: 577px;
+}
+.scopri-il-simbolo-indiscusso-del-golfo-di-napoli-un-vulcano-leggendario-che-domina-storia-e-panorama {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 4160px;
+  width: 561px;
+  height: 250px;
+}
+.rectangle-65 {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 0px;
+  top: 211px;
+}
+.scopri-di-pi4V {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 45px;
+  top: 222px;
+}
+.image-parco-sila-8 {
+  width: 561px;
+  height: 365px;
+  position: absolute;
+  left: 1000px;
+  top: -90px;
+  object-fit: cover;
+  aspect-ratio: 561/365;
+}
+.footerparcosila {
+  position: absolute;
+  inset: 0;
+}
+.image-parco-sila-9 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0px;
+  top: 5187px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+}
+.rettangolo-9 {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0px;
+  top: 5187px;
+}
+.parchi-d-italiaS {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 62px;
+  top: 5276px;
+}
+.chi-siamoS {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 5276px;
+}
+.privacyS {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 5276px;
+}
+
+
+
+
+
+.imagevesuvio1 {
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 1470/343;
+}
+.parco-nazionale-del-vesuvio2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 58px;
+  top: 197px;
+  width: 1232px;
+}
+.introduzioneparcovesuvio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 58px;
+  top: 270px;
+  width: 1330px;
+}
+.parco-nazionale-del-vesuvio3 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 570px;
+}
+.testoparcovesuvio1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 61px;
+  top: 686px;
+  width: 563px;
+  height: 448px;
+}
+.testoparcovesuvio2{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 60px;
+  top: 835px;
+  width: 564px;
+  height: 323px;
+}
+.image-vesuvio-2 {
+  width: 561px;
+  height: 364px;
+  position: absolute;
+  left: 1000px;
+  top: -250px;
+  object-fit: cover;
+  aspect-ratio: 561/364;
+}
+.punti-di-interesseV {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: 1000px;
+  top: 150px;
+}
+.testoparcovesuvio3{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 410px;
+  width: 566px;
+  height: 251px;
+}
+.testoparcovesuvio4{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 535px;
+  width: 557px;
+  height: 316px;
+}
+.testoparcovesuvio5{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1000px;
+  top: 705px;
+  width: 567px;
+  height: 314px;
+}
+.image-vesuvio-3 {
+  width: 561px;
+  height: 373px;
+  position: absolute;
+  left: -1000px;
+  top: -320px;
+  object-fit: cover;
+  aspect-ratio: 561/373;
+}
+.attivita-specificheV {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: -1000px;
+  top: 350px;
+}
+.testoparcovesuvio6 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 420px;
+  width: 563px;
+  height: 250px;
+}
+.testoparcovesuvio7{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: -1000px;
+  top: 570px;
+  width: 563px;
+  height: 320px;
+}
+.image-vesuvio-4 {
+  width: 559.9px;
+  height: 367px;
+  position: absolute;
+  left: 0px;
+  top: 370px;
+  object-fit: cover;
+  aspect-ratio: 559.9/367;
+}
+.image-vesuvio-5 {
+  width: 560px;
+  height: 371px;
+  position: relative;
+  left: 63px;
+  top: 2473px;
+  object-fit: cover;
+  aspect-ratio: 560/371;
+}
+.cenni-su-flora-e-faunaV {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: 0px;
+  top: 900px;
+}
+.testoparcovesuvio8{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 1070px;
+  width: 564px;
+  height: 324px;
+}
+.testoparcovesuvio9 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 1220px;
+  width: 548px;
+  height: 317px;
+}
+.image-vesuvio-5 {
+  width: 560px;
+  height: 371px;
+  position: absolute;
+  left: -1000px;
+  top: 1000px;
+  object-fit: cover;
+  aspect-ratio: 560/371;
+}
+.informazioni-utiliV {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 10px;
+  top: 2400px;
+}
+.testoparcovesuvio10{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 2485px;
+  width: 563px;
+  height: 338px;
+}
+.testoparcovesuvio11{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 2660px;
+  width: 564px;
+  height: 314px;
+}
+.testoparcovesuvio12 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 2835px;
+  width: 564px;
+  height: 370px;
+}
+.testoparcovesuvio13 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 3030px;
+  width: 564px;
+  height: 418px;
+}
+.testoparcovesuvio14{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 3230px;
+  width: 564px;
+  height: 324px;
+}
+.testoparcovesuvio15{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 3380px;
+  width: 563px;
+  height: 1027px;
+}
+.image-vesuvio-6 {
+  width: 560px;
+  height: 371px;
+  position: absolute;
+  left: 1000px;
+  top: 2500px;
+  object-fit: cover;
+  aspect-ratio: 560/371;
+}
+.image-vesuvio-7 {
+  width: 560px;
+  height: 369px;
+  position: absolute;
+  left: 1000px;
+  top: 3100px;
+  object-fit: cover;
+  aspect-ratio: 560/369;
+}
+.image-vesuvio-8 {
+  width: 571px;
+  height: 371px;
+  position: absolute;
+  left: 64px;
+  top: 4535px;
+  object-fit: cover;
+  aspect-ratio: 571/371;
+}
+.anteprima-parco-nazionale-dell-arcipelago-toscanoo {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 4530px;
+}
+.sette-isole-incastonate-nel-blu-del-mediterraneo-un-viaggio-tra-costa-cultura-e-natura-protetta {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 4630px;
+  width: 599px;
+  height: 250px;
+}
+.rectangle-65VA {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 1060px;
+  top: 4840px;
+}
+.scopri-di-piVA {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 1100px;
+  top: 4850px;
+}
+.footerparcovesuvio {
+  position: absolute;
+  inset: 0;
+}
+.image-vesuvio-9 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0;
+  top: 5100px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+}
+.rettangolo-9VE {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0;
+  top: 5100px;
+}
+.parchi-d-italiaVE {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 61px;
+  top: 5180px;
+}
+.chi-siamoVE {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 5180px;
+}
+.privacyVE {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 5180px;
+}
+
+
+
+
+.image-arcipelago-1 {
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left: 0;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 1471/336;
+}
+.titolo-parco-nazionale-dell-arcipelago-toscano2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 196px;
+  width: 1232px;
+}
+.introduzioneparcoarcipelago {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 265px;
+  width: 1330px;
+}
+.parco-nazionale-dell-arcipelago-toscano3 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 572px;
+}
+.testoparcoarcipelago1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 701px;
+  width: 559px;
+  height: 448px;
+}
+.image-arcipelago-2 {
+  width: 562px;
+  height: 364px;
+  position: absolute;
+  left: 62px;
+  top: 620px;
+  object-fit: cover;
+  aspect-ratio: 562/364;
+}
+.testoparcoarcipelago2{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 850px;
+  width: 558px;
+  height: 323px;
+}
+.punti-di-interesseAT {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 1218px;
+}
+.testoparcoarcipelago3{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 1296px;
+  width: 559px;
+  height: 251px;
+}
+.testoparcoarcipelago4{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 125px;
+  width: 558px;
+  height: 291px;
+}
+.testoparcoarcipelago5{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 275px;
+  width: 559px;
+  height: 314px;
+}
+.image-arcipelago-3 {
+  width: 559px;
+  height: 362px;
+  position: absolute;
+  left: 1000px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 559/362;
+}
+.image-arcipelago-4 {
+  width: 558.76px;
+  height: 358px;
+  position: absolute;
+  left: 66px;
+  top: 2020px;
+  object-fit: cover;
+  aspect-ratio: 558.76/358;
+}
+.attivita-specificheAT {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 1893px;
+}
+.testoparcoarcipelago6{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1969px;
+  width: 562px;
+  height: 250px;
+}
+.testoparcoarcipelago7{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 2137px;
+  width: 566px;
+  height: 320px;
+}
+.testoparcoarcipelago8{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 2307px;
+  width: 559px;
+  height: 336px;
+}
+.cenni-su-flora-e-faunaAT {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 2696px;
+}
+.testoparcoarcipelago9{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 2774px;
+  width: 561px;
+  height: 256px;
+}
+.testoparcoarcipelago10{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 2875px;
+  width: 559px;
+  height: 317px;
+}
+.testoparcoarcipelago11{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 3069px;
+  width: 561px;
+  height: 338px;
+}
+.image-arcipelago-5 {
+  width: 561.72px;
+  height: 358px;
+  position: absolute;
+  left: 1060px;
+  top: 2781px;
+  object-fit: cover;
+  aspect-ratio: 561.72/358;
+}
+.informazioni-utiliAT {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 3388px;
+}
+.testoparcoarcipelago12 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 3465px;
+  width: 559px;
+  height: 314px;
+}
+.testoparcoarcipelago13{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 3641px;
+  width: 569px;
+  height: 370px;
+}
+.testoparcoarcipelago14{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 3817px;
+  width: 561px;
+  height: 418px;
+}
+.testoparcoarcipelago15{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 4040px;
+  width: 568px;
+  height: 324px;
+}
+.image-arcipelago-6 {
+  width: 560px;
+  height: 358px;
+  position: absolute;
+  left: 63px;
+  top: 3600px;
+  object-fit: cover;
+  aspect-ratio: 560/358;
+}
+.parco-dell-etnaAT {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 4360px;
+}
+.un-vulcano-attivo-che-incontra-boschi-rigogliosi-scopri-la-potenza-e-il-fascino-unico-dell-etna {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 66px;
+  top: 4437px;
+  width: 560px;
+  height: 250px;
+}
+.rectangle-65AT {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 66px;
+  top: 4657px;
+}
+.scopri-di-piAT {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 103px;
+  top: 4670px;
+}
+.image-arcipelago-7 {
+  width: 559.85px;
+  height: 355px;
+  position: absolute;
+  left: 1060px;
+  top: 4367px;
+  object-fit: cover;
+  aspect-ratio: 559.85/355;
+}
+.footerarcipelagotoscano {
+  position: absolute;
+  inset: 0;
+}
+.image-arcipelago-8 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0px;
+  top: 4916px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+}
+.rettangolo-8AT {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0px;
+  top: 4916px;
+}
+.parchi-d-italiaAT {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 5004px;
+}
+.chi-siamoAT {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 5004px;
+}
+.privacyAT {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 5004px;
+}
+
+
+
+
+.image-etna-1 {
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 1457.37/341;
+}
+.titolo-parco-dell-etna {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 196px;
+  width: 1232px;
+}
+.introduzionee-etna {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 265px;
+  width: 1330px;
+}
+.parco-dell-etnaaa {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 569px;
+}
+.testoparcoetna1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 690px;
+  width: 560px;
+  height: 448px;
+}
+.testoparcoetna2{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 884px;
+  width: 561px;
+  height: 323px;
+}
+.image-etna-2 {
+  width: 560.77px;
+  height: 360px;
+  position: absolute;
+  left: 1060px;
+  top: 666px;
+  object-fit: cover;
+  aspect-ratio: 560.77/360;
+}
+.image-etna-3 {
+  width: 559px;
+  height: 353px;
+  position: absolute;
+  left: 65px;
+  top: 1450px;
+  object-fit: cover;
+  aspect-ratio: 559/353;
+}
+.punti-di-interesseET {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 1327px;
+}
+.testoparcoetna3 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1403px;
+  width: 566px;
+  height: 137px;
+}
+.testoparcoetna4 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1510px;
+  width: 555px;
+  height: 291px;
+}
+.testoparcoetna5 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1633px;
+  width: 566px;
+  height: 314px;
+}
+.testoparcoetna6{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1735px;
+  width: 563px;
+  height: 250px;
+}
+.attivita-specificheET {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 69px;
+  top: 2108px;
+}
+.testoparcoetna7 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 66px;
+  top: 2185px;
+  width: 558px;
+  height: 320px;
+}
+.testoparcoetna8 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 2330px;
+  width: 553px;
+  height: 336px;
+}
+.testoparcoetna9 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 63px;
+  top: 2480px;
+  width: 555px;
+  height: 256px;
+}
+.image-etna-4 {
+  width: 562.78px;
+  height: 350px;
+  position: absolute;
+  left: 1060px;
+  top: 2190px;
+  object-fit: cover;
+  aspect-ratio: 562.78/350;
+}
+.image-etna-5 {
+  width: 558.4px;
+  height: 349px;
+  position: absolute;
+  left: 65px;
+  top: 2900px;
+  object-fit: cover;
+  aspect-ratio: 558.4/349;
+}
+.cenni-su-flora-e-faunaET {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 2833px;
+}
+.testoparcoetna10 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 2909px;
+  width: 559px;
+  height: 317px;
+}
+.testoparcoetna11{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 3033px;
+  width: 560px;
+  height: 338px;
+}
+.testoparcoetna12{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 3180px;
+  width: 556px;
+  height: 314px;
+}
+.informazioni-utiliET {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 62px;
+  top: 3523px;
+}
+.testoparcoetna13{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 3599px;
+  width: 559px;
+  height: 370px;
+}
+.testoparcoetna14{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 3769px;
+  width: 559px;
+  height: 418px;
+}
+.testoparcoetna15{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 65px;
+  top: 3890px;
+  width: 559px;
+  height: 324px;
+}
+.testoparcoetna16{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 4063px;
+  width: 560px;
+  height: 324px;
+}
+.image-etna-6 {
+  width: 563px;
+  height: 349px;
+  position: absolute;
+  left: 1060px;
+  top: 3704px;
+  object-fit: cover;
+  aspect-ratio: 563/349;
+}
+.image-etna-7 {
+  width: 564px;
+  height: 348px;
+  position: absolute;
+  left: 65px;
+  top: 4436px;
+  object-fit: cover;
+  aspect-ratio: 564/348;
+}
+.scopri-le-attivita-ed-esperienzee {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 4428px;
+}
+.introduzione-scopri-le-attivita-ed-esperienzee {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 4546px;
+  width: 559px;
+  height: 250px;
+}
+.rectangle-65ET {
+  background: #616e11;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  left: 1060px;
+  top: 4722px;
+}
+.scopri-di-piET {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 1100px;
+  top: 4735px;
+}
+.image-etna-8 {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  left: 0px;
+  top: 4977px;
+  object-fit: cover;
+  aspect-ratio: 1552.1/180;
+}
+.rettangolo-8ET {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  left: 0px;
+  top: 4977px;
+}
+.parchi-d-italiaET {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 63px;
+  top: 5066px;
+}
+.chi-siamoET {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 5066px;
+}
+.privacyET {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 5066px;
+}
+
+
+
+
+
+
+.image-attivit-1 {
+  width: 100%;
+  height: 339px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 1448.82/339;
+}
+.paginaa-attivit-ed-esperienze {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 196px;
+  width: 1232px;
+}
+.sottotitolo-attivita-ed-esperienzee {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 64px;
+  top: 265px;
+  width: 1330px;
+}
+.image-attivit-2 {
+  width: 565px;
+  height: 360px;
+  position: absolute;
+  left: 64px;
+  top: 701px;
+  object-fit: cover;
+  aspect-ratio: 565/360;
+}
+.image-attivit-3 {
+  width: 560px;
+  height: 360px;
+  position: absolute;
+  left: 64px;
+  top: 1242px;
+  object-fit: cover;
+  aspect-ratio: 560/360;
+}
+.attivit-ed-esperienze3-pagina {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 569px;
+}
+.testoattivitaedesp1{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 686px;
+  width: 561px;
+  height: 448px;
+}
+.testoattivitaedesp2 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 885px;
+  width: 560px;
+  height: 323px;
+}
+.testoattivitaedesp3{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1065px;
+  width: 567px;
+  height: 251px;
+}
+.testoattivitaedesp4{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1190px;
+  width: 558px;
+  height: 291px;
+}
+.testoattivitaedesp5 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1320px;
+  width: 567px;
+  height: 314px;
+}
+.testoattivitaedesp6 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1420px;
+  width: 564px;
+  height: 250px;
+}
+.testoattivitaedesp7 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 1507px;
+  width: 564px;
+  height: 320px;
+}
+.tipologie-di-attivita-associate-ai-parchi {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 1855px;
+}
+.testoattivitaedesp8{
+  color: #024a7a;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  position: absolute;
+  left: 64px;
+  top: 1979px;
+  width: 560px;
+  height: 734px;
+}
+.testoattivitaedesp9{
+  color: #024a7a;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.testoattivitaedesp10{
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.image-attivit-4 {
+  width: 560px;
+  height: 360px;
+  position: absolute;
+  left: 1000px;
+  top: -40px;
+  object-fit: cover;
+  aspect-ratio: 560/360;
+}
+.image-attivit-5 {
+  width: 560px;
+  height: 360px;
+  position: absolute;
+  left: 64px;
+  top: 2543px;
+  object-fit: cover;
+  aspect-ratio: 560/360;
+}
+._2-visite-guidate-e-laboratori-didattici {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 2539px;
+  width: 561px;
+}
+.testoattivitaedesp11{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 2600px;
+  width: 555px;
+  height: 480px;
+}
+._3-sport-all-aria-aperta {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 3093px;
+}
+.testoattivitaedesp13 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  position: absolute;
+  left: 54px;
+  top: 3152px;
+  width: 575px;
+  height: 1113px;
+}
+.testoattivitaedesp14 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.testoattivitaedesp15 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.testoattivitaedesp16 {
+  color: #024a7a;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.testoattivitaedesp17 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.testoattivitaedesp18 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.testoattivitaedesp19 {
+  color: #024a7a;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.testoattivitaedesp20 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.testoattivitaedesp21 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.testoattivitaedesp22 {
+  color: #024a7a;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.testoattivitaedesp23 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.testoattivitaedesp24 {
+  color: #024a7a;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.image-attivit-6 {
+  width: 560.29px;
+  height: 357px;
+  position: absolute;
+  left: 1060px;
+  top: 3300px;
+  object-fit: cover;
+  aspect-ratio: 560.29/357;
+}
+.image-attivit-7 {
+  width: 561px;
+  height: 357px;
+  position: absolute;
+  left: 64px;
+  top: 4090px;
+  object-fit: cover;
+  aspect-ratio: 561/357;
+}
+._4-birdwatching {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 1060px;
+  top: 4080px;
+}
+.testoattivitaedesp25{
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 1060px;
+  top: 4130px;
+  width: 555px;
+  height: 362px;
+}
+._5-siti-archeologici-e-borghi-storici {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 61px;
+  top: 4690px;
+}
+.testoattivitaedesp27 {
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  position: absolute;
+  left: 52px;
+  top: 4750px;
+  width: 572px;
+  height: 595px;
+}
+.image-attivit-8 {
+  width: 561px;
+  height: 350px;
+  position: absolute;
+  left: 1060px;
+  top: 4700px;
+  object-fit: cover;
+  aspect-ratio: 561/350;
+}
+.footerattivitaedesp {
+  position: absolute;
+  inset: 0;
+}
+.image-attivit-9 {
+  width: 100%;
+  height: 168px;
+  position: absolute;
+  left: 0px;
+  top: 5200px;
+  object-fit: cover;
+  aspect-ratio: 1448.62/168;
+}
+.rettangolo-9ATTEDESP {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  left: 0px;
+  top: 5200px;
+}
+.parchi-d-italia-attedesp {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 64px;
+  top: 5280px;
+}
+.chi-siamo-attedesp {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1350px;
+  top: 5280px;
+}
+.privacy-attedesp {
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1550px;
+  top: 5280px;
+}
+
+
+
+  
