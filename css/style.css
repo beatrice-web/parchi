@@ -7,9 +7,11 @@
 }
 .home {
   background: #ffffff;
-  height: 1706px;
+  display: flex;
   position: relative;
   overflow: hidden;
+  padding: 24px;
+  justify-content: space-between;
 }
 .home-1 {
   width: 100%;
@@ -29,7 +31,6 @@
   top: 91px;
 }
 .header {
-  position: absolute;
   inset: 0;
 }
 .nome-sito {
@@ -38,14 +39,8 @@
   font-family: "FuturaMdBt-Bold", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  position: absolute;
   left: 60px;
   top: 32px;
-}
-.nav-home {
-  width: 556px;
-  height: 29px;
-  position: static;
 }
 
 .home-link-home,
@@ -61,6 +56,10 @@
 .home-link-home {
   left: 824px;
   top: 34px;
+}
+
+.contenutohome{
+  display: flex;
 }
 
 .home-link-parchi {
@@ -338,7 +337,7 @@
   font-size: 24px;
   font-weight: 500;
   text-align: left;
-  position: absolute;
+  padding-left: 36px;
 }
 
 .parchi-link-home {
