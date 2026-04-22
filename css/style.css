@@ -1,4 +1,6 @@
-
+body{
+  margin: 0;
+}
 .home,
 .home * {
   margin: 0;
@@ -16,7 +18,6 @@
 .home-1 {
   width: 100%;
   height: 339px;
-  position: absolute;
   left:0px;
   top: 91px;
   object-fit: cover;
@@ -26,7 +27,6 @@
   background: rgba(0, 0, 0, 0.35);
   width: 100%;
   height: 339px;
-  position: absolute;
   left: 0px;
   top: 91px;
 }
@@ -59,7 +59,7 @@
 }
 
 .contenutohome{
-  display: flex;
+  display: grid;
 }
 
 .home-link-parchi {
@@ -130,7 +130,6 @@
   font-family: "FuturaMdBt-Medium", sans-serif;
   font-size: 19px;
   font-weight: 500;
-  position: absolute;
   left: 64px;
   top: 631px;
   width: 565px;
@@ -306,7 +305,6 @@
   font-family: "FuturaMdBt-Medium", sans-serif;
   font-size: 19px;
   font-weight: 500;
-  position: absolute;
   left: 67px;
   top: 692px;
   width: 562px;
