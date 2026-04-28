@@ -28,6 +28,23 @@ main{
   justify-content: space-between;
 }
 
+.imgtestohome{
+padding-top: 48px;
+}
+
+.cardparco{
+  gap: 12px;
+  color: #024a7a;
+  text-align: left;
+  font-family: "FuturaMdBt-Bold", sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 36px;
+}
+
 .home-1 {
   width: 100%;
   height: 339px;
@@ -68,9 +85,9 @@ w
 }
 
 .contenutohome{
-  display: flex;
-  flex-direction: column;
+  display: grid;
   grid-row: 2;
+  padding: 48px;
 }
 
 .home-link-parchi {
@@ -135,6 +152,8 @@ w
   top: 32px;
 }
 .testohome1 {
+  display: flex;
+  align-items: center;
   color: #024a7a;
   text-align: left;
   font-family: "FuturaMdBt-Medium", sans-serif;
@@ -222,32 +241,45 @@ w
   width: 168px;
   height: 26px;
 }
-.footer {
-  width: 100%;
-  position: absolute;
-  margin-bottom: 0;
 
+footer {
+  margin: 64px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
 }
+
 .home-7 {
-  width: 100%;
-  height: 168px;
   position: absolute;
-  left: 0px;
-  top: 1560px;
+  width: 100%;
   object-fit: cover;
-  aspect-ratio: 1448.62/168;
   margin-bottom: 0;
+  filter: brightness(70%);
 }
-.rettangolo-7 {
-  background: rgba(0, 0, 0, 0.35);
+
+.footerdx{
+  display: flex;
+  gap: 24px;
+}
+
+.testifooter{
+  z-index: 1;
   width: 100%;
-  height: 167px;
-  position: absolute;
-  left: 0%;
-  top: 1560px;
-  margin-bottom: 0;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 0px 64px;
+  position: relative;
+  display: flex;
+  color: #ffffff;
+  text-align: left;
+  font-family: "FuturaMdBt-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
-.parchi-d-italia {
+
+/* .parchi-d-italia {
   color: #ffffff;
   text-align: left;
   font-family: "FuturaMdBt-Bold", sans-serif;
@@ -256,8 +288,9 @@ w
   position: absolute;
   left: 59px;
   top: 1640px;
-}
-.chi-siamo {
+} */
+
+/*.chi-siamo {
   color: #ffffff;
   text-align: left;
   font-family: "FuturaMdBt-Medium", sans-serif;
@@ -266,8 +299,9 @@ w
   position: absolute;
   left: 1350px;
   top: 1640px;
-}
-.privacy {
+}*/
+
+/*.privacy {
   color: #ffffff;
   text-align: left;
   font-family: "FuturaMdBt-Medium", sans-serif;
@@ -276,8 +310,10 @@ w
   position: absolute;
   left: 1550px;
   top: 1640px;
-}
+}*/
+
 .home-2 {
+  grid-column: 2;
   width: 644px;
   height: 325px;
   left: 980px;
@@ -286,6 +322,8 @@ w
   aspect-ratio: 644/325;
 }
 .testohome2 {
+  display: flex;
+  align-items: center;
   color: #024a7a;
   text-align: left;
   font-family: "FuturaMdBt-Medium", sans-serif;
@@ -601,10 +639,6 @@ w
   height: 288px;
 }
 
-.footer {
-  position: absolute;
-  inset: 0;
-}
 .parchi-8 {
   width: 100%;
   height: 168px;
