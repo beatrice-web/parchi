@@ -1,0 +1,40 @@
+
+.hero img {
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+:root {
+    --primary-color: #233c06;
+    --secondary-color: #ffffff;
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
