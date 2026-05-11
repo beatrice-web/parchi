@@ -13,9 +13,13 @@ img {
     height: auto;
     display: block;
     object-fit: cover;
+    
 }
+.fotohome1 {
+filter: brightness(60%);    
+}    
 nav {
-    background-color: var(--primary-color);
+    background-color: white;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -31,13 +35,14 @@ nav {
     color: var(--white);
 }
 .logo a {
-    color: #ffffff;
+    color: #024a7a;
     text-decoration: none;
  }   
 
 .nav-links {
     display: flex;
     gap: 20px;
+    color: #024a7a;
 }
 
 .nav-links a {
@@ -52,13 +57,12 @@ nav {
     text-decoration: underline;
 }
 :root {
-    --primary-color: #233c06;
-    --secondary-color: #ffffff;
+    --primary-color: #024a7a;
+    --secondary-color: #024a7a;
     --bg-color: #ffffff;
     --text-color: #000000;
-    --white: #ffffff;
+    --white: #000000;
     --max-width: 1200px;
-
 }
 
 * {
@@ -94,7 +98,8 @@ h1, h2 {
     margin-bottom: 1rem;
 }
 h3 {
-    color: #000000;
+    color: #024a7a;
+    font-family: "FuturaMdBt-Medium", sans-serif;
   }  
 h1 { font-size: 2.0rem; }
 h2 { font-size: 1.5rem; border-bottom: 2px solid var(--secondary-color); display: inline-block; }
@@ -123,22 +128,25 @@ p { margin-bottom: 1rem; font-size: 1.1rem; }
 
 .grid-container-index {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 5px;
+    grid-template-columns: repeat(2, 1fr); 
+    
+    gap: 125px; 
     padding: 25px 10px;
-    background-color: #ffffff
+    background-color: #ffffff;
+    
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .card {
     background: var(--white);
-    border-radius: 12px;
     overflow: hidden;
     transition: var(--transition);
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     color: inherit;
     height: 100%;
+    
 }
 .card img {
     width: 100%;
@@ -148,7 +156,7 @@ p { margin-bottom: 1rem; font-size: 1.1rem; }
 
 .card-content {
     padding: 20px;
-    background: var(--primary-color);
+    background: white;
     color: var(--white);
     flex-grow: 1; 
     display: flex;
