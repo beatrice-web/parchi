@@ -287,6 +287,24 @@ footer {
     flex-direction: row-reverse;
 }
 
+footer {
+    color: #ffffff !important; 
+}
+
+footer .logo a {
+    color: #ffffff !important; 
+}
+
+footer .nav-links a {
+    color: #ffffff !important; 
+    text-decoration: none;
+}
+
+footer .nav-links a:hover {
+    color: #eaeaea !important; 
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -299,7 +317,6 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
     }
-
 
     .split-section, .split-section.reverse {
         flex-direction: column;
