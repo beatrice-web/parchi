@@ -32,7 +32,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--white);
+    color: white;
 }
 .logo a {
     color: #024a7a;
@@ -46,7 +46,7 @@ nav {
 }
 
 .nav-links a {
-    color: var(--white);
+    color:#024a7a;
     text-decoration: none;
     font-weight: 500;
     transition: var(--transition);
@@ -56,6 +56,21 @@ nav {
     color: #000000;
     text-decoration: underline;
 }
+.nav-links a.active {
+    color:#383d40;
+}    
+.nav-linksf {
+    color: #ffffff;
+    display: flex;
+    gap: 20px;
+}    
+.nav-linksf a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+
+}  
 :root {
     --primary-color: #024a7a;
     --secondary-color: #024a7a;
@@ -180,6 +195,98 @@ footer {
     margin-top: auto;
 }
 
+.lista-parchi-due-colonne {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px 40px; 
+    list-style-type: none; 
+    padding: 20px 10px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.lista-parchi-due-colonne li {
+    font-size: 1.1rem;
+    color: #024a7a;
+    padding: 8px 0;
+    border-bottom: 1px solid #eaeaea; 
+}
+.grid-container-orizzontale {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+.card-orizzontale {
+    display: flex;
+    flex-direction: row; 
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    text-decoration: none;
+    color: #000000;
+    height: 150px; 
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-orizzontale:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-orizzontale img {
+    width: 250px; 
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+.card-content-orizzontale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 30px;
+    width: 100%;
+}
+
+.card-content-orizzontale p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #024a7a;
+    margin: 0;
+}
+
+
+.btn-scopri {
+    background-color: #088c05;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+}
+
+.card-orizzontale:hover .btn-scopri {
+    background-color: #000000; 
+}
+
+
+.card-orizzontale:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.card-orizzontale:nth-child(even) .card-content-orizzontale {
+    flex-direction: row-reverse;
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -215,5 +322,54 @@ footer {
        grid-template-columns: repeat(1, 1fr);
        
        } 
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    .card img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+        max-height: 200px; 
+    }
+    .lista-parchi-due-colonne {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px 15px;
+    }
+    .card-orizzontale, 
+    .card-orizzontale:nth-child(even) {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card-orizzontale img {
+        width: 100%;
+        height: 200px;
+    }
+
+    
+    .card-content-orizzontale,
+    .card-orizzontale:nth-child(even) .card-content-orizzontale {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .card-content-orizzontale p {
+        font-size: 1.1rem;
+    }
+
+    
+    .btn-scopri {
+        width: 100%;
+        text-align: center;
+    }
 }
 

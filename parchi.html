@@ -1,90 +1,101 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parchi d'Italia - Esplora la Natura</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Parchi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+  <div class="logo">
+        <a href="index.html">Parchi d'Italia</a></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="parchi.html" class="active">Parchi</a>
+            <a href="attivita.html">Attività ed Esperienze</a>
+        </div>
+    </nav>
 
-<header>
-    <div class="home">
-        <div class="nome-sito">Parchi d’Italia</div>
-        <nav class="nav-home">
-            <a href="index.html" class="parchi-link">Home</a>
-            <a href="parchi.html" class="parchi-link">Parchi</a>
-            <a href="attivita.html" class="parchi-link">Attività ed Esperienze</a>
-        </nav>
+    <header class="hero">
+        <img src="foto sito/home1.jpg" alt="Esplora i Parchi Italiani" class="fotohome1">
+    </header>
+    <main>
+        <section class="section-content">
+            <div class="text-content">
+                <h1>Parchi Nazionali Italiani</h1>
+                <h3> Esplora i maestosi parchi nazionali italiani: luoghi incantati dove montagne, coste e antiche foreste raccontano la storia e la bellezza senza tempo del nostro Paese.</h3>
+            </div>
+       </section>
+
+<section>
+    <div class="grid-container-orizzontale">
+        
+        <!-- CARD 1: Foto a sinistra, testo e bottone a destra -->
+        <a href="parcoetna.html" class="card-orizzontale">
+            <img src="foto sito/parchi 2.jpg" alt="Etna">
+            <div class="card-content-orizzontale">
+                <p>Parco Nazionale dell'Etna</p>
+                <span class="btn-scopri">Scopri di più</span>
+            </div>
+        </a>
+
+        <!-- CARD 2: Invertita automaticamente dal CSS (Foto a destra) -->
+        <a href="parcoarcipelagotoscano.html" class="card-orizzontale">
+            <img src="foto sito/parchi 3.jpg" alt="Toscano">
+            <div class="card-content-orizzontale">
+                <p>Parco Nazionale dell'Arcipelago Toscano</p>
+                <span class="btn-scopri">Scopri di più</span>
+            </div>
+        </a>
+
+        <!-- CARD 3: Foto a sinistra -->
+        <a href="parcosila.html" class="card-orizzontale">
+            <img src="foto sito/parchi 4.jpg" alt="Sila">
+            <div class="card-content-orizzontale">
+                <p>Parco Nazionale della Sila</p>
+                <span class="btn-scopri">Scopri di più</span>
+            </div>
+        </a>
+
+        <!-- CARD 4: Invertita automaticamente dal CSS (Foto a destra) -->
+        <a href="parcovesuvio.html" class="card-orizzontale">
+            <img src="foto sito/parchi 5.jpg" alt="Vesuvio">
+            <div class="card-content-orizzontale">
+                <p>Parco Nazionale del Vesuvio</p>
+                <span class="btn-scopri">Scopri di più</span>
+            </div>
+        </a>
+
     </div>
-</header>
+</section>
 
-<main>
-    <!-- Sezione Intro -->
-    <section class="hero-parchi">
-        <img class="home-1" src="foto sito/home 1.jpg" alt="Panorama Parchi" />
-        <div class="parchi-intro">PARCHI</div>
-        <p class="testoparchi1">
-            Scopri i 12 parchi nazionali italiani, un mosaico di montagne, mari e foreste di inestimabile valore.
-        </p>
-        <p class="testoparchi2">
-            Ogni area protetta racconta storie di biodiversità, paesaggi unici e tradizioni centenarie.
-        </p>
-    </section>
+<div class="text-content">
+    <h1>Altri parchi</h1>
+</div>
 
-    <!-- Griglia Parchi (Esempio di struttura pulita) -->
-    <section class="grid-parchi">
-        <!-- Parco Abruzzo -->
-        <div class="card-parco">
-            <img class="parchi-2" src="foto sito/parchi 2.jpg" alt="Parco Abruzzo" />
-            <div class="info-parco">
-                <div class="titolo-parco">PARCO NAZIONALE D’ABRUZZO, LAZIO E MOLISE</div>
-                <a href="parcodabruzzolazioemolise.html" class="scopri-di-pi">Scopri di più</a>
-            </div>
-        </div>
-
-        <!-- Parco Sila -->
-        <div class="card-parco">
-            <img class="parchi-4" src="foto sito/parchi 4.jpg" alt="Parco Sila" />
-            <div class="info-parco">
-                <div class="titolo-parco">PARCO NAZIONALE DELLA SILA</div>
-                <a href="sila.html" class="scopri-di-pi">Scopri di più</a>
-            </div>
-        </div>
-
-        <!-- Altri parchi seguono lo stesso schema... -->
-    </section>
-
-    <!-- Elenco Testuale -->
-    <section class="altri-parchi">
-        <div class="elenco1">
-            <ul>
-                <li>Parco Nazionale dell'Arcipelago di La Maddalena</li>
-                <li>Parco Nazionale del Cilento, Vallo di Diano e Alburni</li>
-                <li>Parco Nazionale delle Foreste Casentinesi</li>
-            </ul>
-        </div>
-        <div class="elenco2">
-            <ul>
-                <li>Parco Nazionale del Gran Paradiso</li>
-                <li>Parco Nazionale delle Cinque Terre</li>
-                <li>Parco Nazionale del Pollino</li>
-                <li>Parco Nazionale delle Dolomiti Bellunesi</li>
-            </ul>
-        </div>
-    </section>
+<!-- Usiamo una lista per i parchi -->
+<ul class="lista-parchi-due-colonne">
+    <li>Parco Nazionale d'Abruzzo, Lazio e Molise</li>
+    <li>Parco Nazionale del Gran Paradiso</li>
+    <li>Parco Nazionale delle Cinque Terre</li>
+    <li>Parco Nazionale del Pollino</li>
+    <li>Parco Nazionale delle Dolomiti Bellunesi</li>
+    <li>Parco Nazionale dell'Arcipelago della Maddalena</li>
+    <li>Parco Nazionale del Cilento, Vallo di Diano e Alburni</li>
+    <li>Parco Nazionale delle Foreste Casentinesi, Monte Falterona e Campigna</li>
+</ul>
 </main>
-
- <footer>
-        <div class="testifooter">
-          <div class="parchi-d-italia">Parchi d’Italia</div>
-          <div class="footerdx">
-            <div class="chi-siamo">Chi siamo</div>
-            <div class="privacy">Privacy</div>
-          </div>
+    
+    <footer>
+  <div class="logo">
+        <a href="index.html">Parchi d'Italia</a></div>
+        <div class="nav-links">
+            <a href="#Privacy">Privacy</a>
+            <a href="#ChiSiamo">Chi siamo</a>
         </div>
-        <img class="home-7" src="foto sito/home 7.jpg"/>
     </footer>
 
-</body>
+</body>    
+
 </html>
