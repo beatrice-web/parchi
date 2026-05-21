@@ -44,8 +44,18 @@ nav {
     gap: 20px;
     color: #024a7a;
 }
-
+/* Rimuove la sottolineatura e il colore blu solo dai blocchi centrali della pagina */
+.card-etna-link {
+    text-decoration: none;
+    color: inherit; /* Mantiene i colori originali dei testi e dei titoli inseriti nel blocco */
+}
 .nav-links a {
+    color:#024a7a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+.lista-parchi-due-colonne a {
     color:#024a7a;
     text-decoration: none;
     font-weight: 500;
@@ -305,19 +315,19 @@ footer .nav-links a:hover {
     text-decoration: underline;
 }
 
-/* Struttura base comune per entrambe le sezioni */
+
 .card-etna-link {
     display: flex;
-    flex-direction: row; /* Di base: foto a sinistra, testo a destra */
-    gap: 50px;           /* Spazio uniforme tra foto e testo */
+    flex-direction: row; 
+    gap: 50px;           
     text-decoration: none;
     color: #333;
-    margin-bottom: 60px; /* Distanza tra la prima section e la seconda */
+    margin-bottom: 60px; 
 }
 
-/* Gestione dei testi */
+
 .card-etna-testi {
-    flex: 1; /* Permette al testo di prendere tutto lo spazio rimasto libero */
+    flex: 1; 
 }
 
 .card-etna-testi h1 {
@@ -333,44 +343,49 @@ footer .nav-links a:hover {
     color: #024a7a;
 }
 
-/* Gestione dei contenitori delle immagini */
+
 .card-etna-foto-colonna {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Nella prima sezione tiene le foto separate (inizio e fine del testo) */
+    justify-content: space-between; 
     flex-shrink: 0;
 }
 
-/* Stile universale delle immagini (grandi e definite) */
+
 .card-etna-foto-colonna img {
-    width: 380px;        /* Immagini più grandi come avevi chiesto */
-    height: 260px;       /* Taglio rettangolare pulito ed elegante */
+    width: 380px;        
+    height: 260px;       
     object-fit: cover;
     align-items: center;
     
 }
 
-/* Trucco specifico per la prima sezione: costringe le foto a coprire l'intera altezza del testo lunghissimo */
+
 .sezione-etna-attivita:first-of-type .card-etna-link {
     align-items: center; 
 }
 
-/* Trucco specifico per la seconda sezione: se c'è una sola foto, si allinea in alto accanto all'H1 */
-/* Trova questa regola nel tuo CSS e cambiala così: */
+
 .sezione-etna-attivita:last-of-type .card-etna-link {
-    align-items: center; /* Centra verticalmente la foto rispetto al testo */
+    align-items: center; 
 }
-/* Opzionale: Se la seconda foto non ti serve così alta (260px), puoi sbloccarla per farla proporzionata */
+
 .sezione-etna-attivita:last-of-type .card-etna-foto-colonna img {
     height: auto; 
     max-height: 450px;  
-    align-items: center;  /* Evita che diventi gigantesca in altezza */
+    align-items: center;  
+}
+
+/* Rimuove il bordo inferiore e l'eventuale linea decorativa dai titoli delle schede */
+.card-etna-testi h1, 
+.card-etna-testi h2 {
+    border-bottom: none !important;
+    text-decoration: none !important;
 }
 
 
-
 @media (max-width: 768px) {
-    /* --- NAV & HEADER --- */
+    
     nav {
         flex-direction: column;
         gap: 15px;
@@ -386,7 +401,7 @@ footer .nav-links a:hover {
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
 
-    /* --- STRUTTURA PAGINA ATTIVITÀ (Integrazione) --- */
+    
     .sezione-etna-attivita {
         padding: 0 15px;
     }
@@ -395,7 +410,7 @@ footer .nav-links a:hover {
         width: 100%;
     }
 
-    /* Incolonna testo e immagini nella pagina attività */
+    
     .card-etna-link {
         flex-direction: column !important;
         gap: 25px !important;
@@ -403,7 +418,7 @@ footer .nav-links a:hover {
         align-items: stretch !important;
     }
 
-    /* Forza il testo sopra e la foto sotto anche nelle sezioni invertite */
+    
     .sezione-invertita .card-etna-link {
         flex-direction: column !important;
     }
@@ -413,7 +428,7 @@ footer .nav-links a:hover {
     }
 
     .card-etna-testi p {
-        text-align: left; /* Evita spazi giganti brutti sui testi lunghi da mobile */
+        text-align: left; 
     }
 
     .card-etna-foto-colonna {
@@ -421,7 +436,7 @@ footer .nav-links a:hover {
         gap: 15px;
     }
 
-    /* Rende le foto delle attività fluide e della stessa altezza delle altre card */
+    
     .card-etna-foto-colonna img {
         width: 100% !important;
         height: 200px !important;
@@ -429,7 +444,7 @@ footer .nav-links a:hover {
     }
 
 
-    /* --- SEZIONI SPLIT GENERICHE --- */
+    
     .split-section, .split-section.reverse {
         flex-direction: column;
     }
@@ -440,9 +455,9 @@ footer .nav-links a:hover {
     }
 
 
-    /* --- GRIGLIE E CARD STANDARD --- */
+    
     .grid-container {
-        grid-template-columns: 1fr; /* Corretto: rimosso flex-direction inutile */
+        grid-template-columns: 1fr; 
         gap: 20px;
     } 
 
@@ -462,7 +477,7 @@ footer .nav-links a:hover {
     }
 
 
-    /* --- LISTA PARCHI A DUE COLONNE --- */
+    
     .lista-parchi-due-colonne {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -470,7 +485,7 @@ footer .nav-links a:hover {
     }
 
 
-    /* --- CARD ORIZZONTALI --- */
+    
     .card-orizzontale, 
     .card-orizzontale:nth-child(even) {
         flex-direction: column;
