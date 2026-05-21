@@ -383,6 +383,43 @@ footer .nav-links a:hover {
     text-decoration: none !important;
 }
 
+.hero-text-container-left {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Sposta il blocco staccandolo dal bordo sinistro */
+    transform: translateY(-50%); /* Lo centra solo in verticale */
+    text-align: left; /* Allinea il testo a sinistra */
+    width: 80%; 
+    max-width: 800px;
+    z-index: 2;
+}
+
+/* Stile dei testi nell'hero */
+.hero-text-container-left h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-text-container-left h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* --- ADATTAMENTO MOBILE (RESPONSIVE) --- */
+@media (max-width: 768px) {
+    .hero-text-container h1 {
+        font-size: 1.8rem; /* Rimpicciolisce il titolo sugli schermi piccoli */
+        margin-bottom: 0.5rem;
+    }
+    .hero-text-container h3 {
+        font-size: 1.1rem; /* Rimpicciolisce il sottotitolo sugli schermi piccoli */
+    }
+}
 
 @media (max-width: 768px) {
     
@@ -529,6 +566,16 @@ footer .nav-links a:hover {
     
     footer .nav-links a {
         margin: 0 10px;
+    }
+    .hero-text-container-left {
+        left: 5%; /* Riduce il margine laterale sui telefoni per sfruttare lo spazio */
+    }
+    .hero-text-container-left h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+    .hero-text-container-left h3 {
+        font-size: 1.1rem;
     }
 }
 
