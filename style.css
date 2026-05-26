@@ -376,7 +376,7 @@ footer .nav-links a:hover {
     align-items: center;  
 }
 
-/* Rimuove il bordo inferiore e l'eventuale linea decorativa dai titoli delle schede */
+
 .card-etna-testi h1, 
 .card-etna-testi h2 {
     border-bottom: none !important;
@@ -386,15 +386,15 @@ footer .nav-links a:hover {
 .hero-text-container-left {
     position: absolute;
     top: 50%;
-    left: 10%; /* Sposta il blocco staccandolo dal bordo sinistro */
-    transform: translateY(-50%); /* Lo centra solo in verticale */
-    text-align: left; /* Allinea il testo a sinistra */
+    left: 10%; 
+    transform: translateY(-50%); 
+    text-align: left; 
     width: 80%; 
     max-width: 800px;
     z-index: 2;
 }
 
-/* Stile dei testi nell'hero */
+
 .hero-text-container-left h1 {
     color: #ffffff;
     font-size: 2rem;
@@ -410,19 +410,17 @@ footer .nav-links a:hover {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
-/* --- ADATTAMENTO MOBILE (RESPONSIVE) --- */
+
 @media (max-width: 768px) {
     .hero-text-container h1 {
-        font-size: 1.8rem; /* Rimpicciolisce il titolo sugli schermi piccoli */
+        font-size: 1.8rem; 
         margin-bottom: 0.5rem;
     }
     .hero-text-container h3 {
-        font-size: 1.1rem; /* Rimpicciolisce il sottotitolo sugli schermi piccoli */
+        font-size: 1.1rem; 
     }
-}
 
-@media (max-width: 768px) {
-    
+
     nav {
         flex-direction: column;
         gap: 15px;
@@ -546,8 +544,6 @@ footer .nav-links a:hover {
         font-size: 1.1rem;
     }
 
-
-    /* --- BOTTONI E FOOTER --- */
     .btn-scopri {
         width: 100%;
         text-align: center;
@@ -568,7 +564,7 @@ footer .nav-links a:hover {
         margin: 0 10px;
     }
     .hero-text-container-left {
-        left: 5%; /* Riduce il margine laterale sui telefoni per sfruttare lo spazio */
+        left: 5%; 
     }
     .hero-text-container-left h1 {
         font-size: 1.8rem;
@@ -577,5 +573,7 @@ footer .nav-links a:hover {
     .hero-text-container-left h3 {
         font-size: 1.1rem;
     }
+
+    
 }
 
